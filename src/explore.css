@@ -1,0 +1,337 @@
+body{
+    background-image: url(/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+    }
+    .header{
+        display:block;
+        color:transparent;
+        
+    
+    }
+    *{
+        margin-bottom: 0;
+        padding:0;
+    }
+    
+    
+    .main{
+        max-width: 1500px;
+        padding: 0 15px;
+        margin: auto;
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: black;
+        
+    }
+    .collapse{
+        list-style-type: none;
+        
+    }
+    
+    .container{
+
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        color: turquoise;}
+    
+    .navbar {
+        
+        
+        padding: 10px;
+        
+        overflow: hidden;
+    
+        
+    }
+    
+    
+    .navlink{
+        font-family: 'Times New Roman', Times, serif;
+        padding: 7px;
+        float: right;
+        font-size: 20px;
+        color:white;
+        
+    }
+    .navlink:hover{
+        color: turquoise;
+    }
+    
+    
+    .class{
+        
+        max-width: 800px;
+        margin: 40px auto 20px;
+        
+    }
+    .explore{
+        margin-left: 26%;
+        font-size: 50px;
+        color: gray;
+    }
+    .beach{
+        max-width: 400px;
+       box-shadow: 10px 10px gray;
+        position: absolute;
+        left: 40px;
+        margin-bottom: 20px;
+       
+    }
+    .left{
+        position: absolute;
+        left: 460px;
+        top: 200px;
+        margin-left: 20px;
+        margin-right: 40px;
+        background-color: cadetblue;
+        padding: 1%;
+        box-shadow: 10px 10px gray;
+        
+    }
+    
+    p{
+        font-size: 15px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        
+    }
+    .mountains{
+        max-width: 400px;
+        position: absolute;
+        right: 40px;
+        top: 500px;
+      
+        box-shadow: -10px 10px gray;
+    }
+    .left2{
+        position: absolute;
+        right: 440px;
+        top: 500px;
+        margin-right: 40px;
+        margin-left: 40px;
+        background-color: cadetblue;
+        padding: 1%;
+        box-shadow: -10px 10px gray;
+    }
+    .wildlife{
+        max-width: 400px;
+        position: absolute;
+        left: 40px;
+        top: 820px;
+        
+        box-shadow: 10px 10px gray;
+      
+
+    }
+    .left3{
+        position: absolute;
+        left: 460px;
+        top: 820px;
+        margin-left: 20px;
+        margin-right: 40px;
+        background-color: cadetblue;
+        padding: 1%;
+        box-shadow: 10px 10px gray;
+    }
+    .adventure{
+        max-width: 400px;
+        position: absolute;
+        right: 40px;
+        top: 1180px;
+        
+       
+        box-shadow: -10px 10px gray;
+    }
+    .left4{
+        position: absolute;
+        right: 440px;
+        top: 1180px;
+        margin-left: 40px;
+        margin-right: 40px;
+        background-color: cadetblue;
+        padding: 1%;
+        box-shadow: -10px 10px gray;
+    }
+    .pilgrimage{
+        max-width: 400px;
+        position: absolute;
+        left: 40px;
+        top:1510px;
+        box-shadow: 10px 10px gray;
+    }
+    .left5{
+        position: absolute;
+        left: 460px;
+        top: 1510px;
+        margin-left: 20px;
+        margin-right: 40px;
+        background-color: cadetblue;
+        padding: 1%;
+        box-shadow: 10px 10px gray;
+    }
+    .cultural{
+        max-width: 400px;
+        position: absolute;
+        right: 40px;
+        top: 1860px;
+        
+        box-shadow: -10px 10px gray;
+    }
+    .left6{
+        position: absolute;
+        right: 440px;
+        top: 1860px;
+        margin-left: 40px;
+        margin-right: 40px;
+        background-color: cadetblue;
+        padding: 1%;
+        box-shadow: -10px 10px gray;
+    }
+
+
+
+
+
+
+    
+    .footer{
+        background-color: rgb(20, 20, 20);
+        margin-bottom: 0;
+        height: 410px;
+        position: relative;
+        padding-left:5%;
+        color:cadetblue;
+        margin-top: 130%;
+       padding-bottom: 0%;
+    }
+    .logo-text{
+        font-size: 45px;
+        
+    }
+
+    .footer-content{
+        padding-top: 5px;
+        display: flex;
+        height:350px;
+        color:cadetblue;
+        font-size: 20px;
+    }
+
+    .leftbox{
+         
+        color:cadetblue;
+        flex : 1;
+   }
+
+   .contact{
+       font-size: 17px;
+        color:cadetblue;
+   }
+
+   .centerbox{
+        
+       color:cadetblue;
+       flex : 1;
+  }
+
+  .rightbox{
+   color:cadetblue;
+   flex : 1;
+   margin-top: 20 px;
+  }
+
+
+   .footertext{
+       width:80mm;
+       background-color:rgb(34, 32, 32);
+       color: #ffffff;
+       height: 15mm;
+       line-height: 10px;
+       font-size: 20px;
+       margin-bottom: 10px;
+       margin-top: 20 px;
+       
+   }
+
+   .footerarea{
+       background-color:rgb(34, 32, 32);
+       color: #ffffff;
+       font-size: 20px;
+       margin-bottom: 10px;
+   }
+
+   .footerbtn{
+       background-color: black;
+       padding: 5px 10px 5px 10px;
+   font-size: small;
+   color: white;
+   margin-left: 25%;
+   height: 40px;
+   width: 70px;
+   }
+
+   .footerbtn:hover{
+       color:black;
+       background-color: turquoise;
+       font-weight: bold ;  
+   }
+
+
+   .footer-bottom{
+       color:gainsboro;
+       background-color: dimgray;
+      text-align:center;
+      position:absolute;
+      bottom: 0;
+      left: 0;
+      width:100%;
+      
+      padding-top: 5px;
+      
+      
+   }
+
+   .icon a{
+       color:cadetblue;
+       display: inline-block;
+       border: 1px solid rgb(87, 2, 87);
+       margin-left: 5px;
+       padding-top: 5px;
+       font-size: 1.1em;
+      
+      
+   }
+ 
+
+   .button{
+       background-color: black;
+   padding: 15px 20px 15px 20px;
+   font-size: medium;
+   color: white;
+   margin-left: 15%;
+   
+   }
+
+   .button:hover{
+       color:black;
+       background-color: turquoise;
+       font-weight: bold ;
+   }
+  .links{
+    background-color: turquoise;
+    padding: 10px;
+    
+    margin: 15px;
+    color: black;
+    border-radius: 25px;
+    
+}
+.links:hover{
+    color: deeppink;
+}
